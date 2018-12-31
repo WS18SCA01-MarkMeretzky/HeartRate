@@ -12,6 +12,8 @@
 		4DA8E0F121DAB35B008F61A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8E0EF21DAB35B008F61A2 /* Main.storyboard */; };
 		4DA8E0F321DAB35C008F61A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8E0F221DAB35C008F61A2 /* Assets.xcassets */; };
 		4DA8E0F621DAB35C008F61A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8E0F421DAB35C008F61A2 /* LaunchScreen.storyboard */; };
+		4DA8E0FE21DABB4C008F61A2 /* HeartRateReceiverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8E0FD21DABB4C008F61A2 /* HeartRateReceiverDelegate.swift */; };
+		4DA8E10021DABB7B008F61A2 /* HeartRateReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8E0FF21DABB7B008F61A2 /* HeartRateReceiver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4DA8E0F221DAB35C008F61A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA8E0F521DAB35C008F61A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA8E0F721DAB35C008F61A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA8E0FD21DABB4C008F61A2 /* HeartRateReceiverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateReceiverDelegate.swift; sourceTree = "<group>"; };
+		4DA8E0FF21DABB7B008F61A2 /* HeartRateReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateReceiver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				4DA8E0EB21DAB35B008F61A2 /* AppDelegate.swift */,
 				4DA8E0ED21DAB35B008F61A2 /* ViewController.swift */,
+				4DA8E0FD21DABB4C008F61A2 /* HeartRateReceiverDelegate.swift */,
+				4DA8E0FF21DABB7B008F61A2 /* HeartRateReceiver.swift */,
 				4DA8E0EF21DAB35B008F61A2 /* Main.storyboard */,
 				4DA8E0F221DAB35C008F61A2 /* Assets.xcassets */,
 				4DA8E0F421DAB35C008F61A2 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				4DA8E0EE21DAB35B008F61A2 /* ViewController.swift in Sources */,
 				4DA8E0EC21DAB35B008F61A2 /* AppDelegate.swift in Sources */,
+				4DA8E0FE21DABB4C008F61A2 /* HeartRateReceiverDelegate.swift in Sources */,
+				4DA8E10021DABB7B008F61A2 /* HeartRateReceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
