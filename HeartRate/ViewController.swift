@@ -20,7 +20,7 @@ class ViewController: UIViewController, HeartRateReceiverDelegate {
         heartRateReceiver.delegate = self;
         
         //Do the 10-second pause in a different thread, so the main thread can
-        //devote itself uninterruptedly keeping the user interface moving.
+        //uninterruptedly devote itself to keeping the user interface moving.
         dispatchQueue.async {
             heartRateReceiver.startHeartRateMonitoringExample();
         }
