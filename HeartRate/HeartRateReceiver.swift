@@ -27,10 +27,9 @@ class HeartRateReceiver {
     }
     
     func startHeartRateMonitoringExample() {
-        for _ in 1 ... 10 {
-            //Random Int in the range 60 to 74 inclusive.
-            currentHR = 60 + Int.random(in: 0 ..< 15);
-            Thread.sleep(forTimeInterval: 10);   //seconds
+        for _ in 0 ..< 10 {
+            currentHR = Int.random(in: 60 ..< 75); //Random Int in the range 60 to 74 inclusive.
+            Thread.sleep(forTimeInterval: 10);     //seconds
         }
     }
 }
